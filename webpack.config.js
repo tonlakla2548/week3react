@@ -25,6 +25,7 @@ var config = {
         historyApiFallback: true,
         inline: true
         
+
     }
 
 };
