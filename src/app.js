@@ -15,13 +15,7 @@ const Items = (props) => {
     console.log(props.items)
     return (
       <table>
-      <tr>
-      <th>No</th>
-          <th>Pic</th>
-          <th>Name</th>
-          <th>Element</th>
-      <th>Skill</th>
-       </tr>
+    
 
                    {props.items.map(item => (
                  <tr>
